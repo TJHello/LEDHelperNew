@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_titlebar_height">72dp</dimen>
+    <dimen name="app_window_content_item_height">56dp</dimen>
+    <dimen name="app_drawable_left_right">56dp</dimen>
+    <dimen name="app_menu_item_height">48dp</dimen>
+    <dimen name="app_menu_item_text_left">72dp</dimen>
+    <dimen name="app_window_width">335dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_title_template_height">45dp</dimen>
+    <dimen name="app_button_width">180dp</dimen>
+    <dimen name="app_button2_width">135dp</dimen>
+    <dimen name="app_button_height">45dp</dimen>
+    <dimen name="app_margin_small">8dp</dimen>
+    <dimen name="app_margin">16dp</dimen>
+    <dimen name="app_margin_big">20dp</dimen>
+    <dimen name="app_padding_small">8dp</dimen>
+    <dimen name="app_padding">16dp</dimen>
+    <dimen name="app_padding_big">20dp</dimen>
+    <dimen name="app_et_padding_lr">20dp</dimen>
+    <dimen name="app_et_height">45dp</dimen>
+    <dimen name="app_text_size_s">14sp</dimen>
+    <dimen name="app_text_size_m">14sp</dimen>
+    <dimen name="app_text_size_l">18sp</dimen>
+    <dimen name="app_text_size_x">22sp</dimen>
+    <dimen name="dialog_title_size">20sp</dimen>
+    <dimen name="app_window_bt_width">280dp</dimen>
+    <dimen name="app_window_bt_height">40dp</dimen>
+    <dimen name="app_radius">2dp</dimen>
+    <dimen name="app_tag_width">45dp</dimen>
+    <dimen name="app_bt_radius">8dp</dimen>
+
+    <dimen name="app_back_width">30dp</dimen>
+    <dimen name="app_back_height">30dp</dimen>
+    <dimen name="app_index_image_width">80dp</dimen>
+    <dimen name="app_index_image_height">60dp</dimen>
+</resources>

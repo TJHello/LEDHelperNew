@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tjbaobao.ledhelper.activity.main.IndexSetActivity"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/app_theme_color"
+    android:clipToPadding="true"
+    >
+    <include android:id="@+id/app_template_title" layout="@layout/app_template_title" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/app_white"
+        >
+        <LinearLayout
+            android:id="@+id/ll_device_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/app_padding"
+            android:paddingRight="@dimen/app_padding"
+            android:background="#ffe9d3"
+            >
+            <TextView
+                android:id="@+id/tv_device_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备未连接"
+                android:textSize="14sp"
+                android:textColor="@color/app_black_left"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/bt_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_window_bt_height"
+                android:text="连接设备"
+                android:textSize="12sp"
+                android:textColor="@color/app_black_left"
+                />
+        </LinearLayout>
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutAnimation="@anim/app_list_anim"
+            android:divider="@color/app_gray_left"
+            android:dividerHeight="3dp"
+            android:background="@color/app_theme_activity_bg" />
+    </LinearLayout>
+
+</LinearLayout>

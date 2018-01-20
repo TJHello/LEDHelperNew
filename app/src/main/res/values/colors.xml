@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_theme_color">#01b1dd</color>
+    <color name="app_theme_activity_bg">#ffffff</color>
+    <color name="app_index_line_bg">#adadad</color>
+    <color name="app_index_item_text">#868686</color>
+
+    <color name="app_window_bg">#aa000000</color>
+    <color name="app_window_title_bg">#258fd9</color>
+
+    <color name="app_gray_left">#efefef</color>
+    <color name="app_gray_bg">#f9f9f9</color>
+    <color name="app_gray">#e6e6e6</color>
+    <color name="app_gray_right">#636363</color>
+    <color name="app_white">#ffffff</color>
+    <color name="start_first_tv_name">#725a40</color>
+    <color name="app_blue_off">#0976dc</color>
+    <color name="app_red_off">#e26161</color>
+    <color name="app_blue_on">#0b89ff</color>
+    <color name="app_red_on">#ef7f7f</color>
+    <color name="app_black_left">#454545</color>
+    <color name="app_black">#000000</color>
+    <color name="app_transparent">#00ffffff</color>
+    <color name="app_transparent_11">#11ffffff</color>
+    <color name="app_transparent_33">#33ffffff</color>
+    <color name="app_transparent_55">#55ffffff</color>
+    <color name="app_transparent_88">#88ffffff</color>
+    <color name="app_transparent_black_88">#88000000</color>
+    <color name="app_transparent_black_aa">#aa000000</color>
+</resources>

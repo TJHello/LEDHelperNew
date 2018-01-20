@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LEDHelperNew</string>
+
+    <!--index-->
+    <string name="index_title">首页</string>
+    <string name="index_image_title">图片</string>
+    <string name="index_text_title">文字</string>
+    <string name="index_anim_title">动画</string>
+
+    <!--anim-->
+    <string name="anim_edit_apply">应用</string>
+    <string name="anim_edit_text_hint">请输入文本</string>
+    <string name="anim_edit_save_dialog_edit_hint">请输入标题</string>
+
+    <string name="index_setting_activity_title">设置</string>
+    <string name="setting_activity_device">设备规格</string>
+</resources>
