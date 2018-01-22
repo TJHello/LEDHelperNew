@@ -60,9 +60,14 @@ public class BaseRecyclerView extends RecyclerView {
         this.setLayoutManager(new StaggeredGridLayoutManager(spanCount,orientation));
     }
 
-    public void addListVIewItemDecoration()
+    public void addListViewItemDecoration()
     {
         this.addItemDecoration(BaseItemDecoration.getLineVerticalDecoration(BaseItemDecoration.DEF_SPACING));
+    }
+
+    public void addGridAverageCenterDecoration(int spacingVertical,int spacingHorizontal)
+    {
+        this.addItemDecoration(BaseItemDecoration.getGridCenterDecoration(spacingVertical,spacingHorizontal));
     }
 
     public abstract static class BaseViewHolder extends RecyclerView.ViewHolder
